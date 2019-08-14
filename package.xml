@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+    <name>Wallmob_Wallmob</name>
+    <version>0.1.2</version>
+    <stability>stable</stability>
+    <license uri="http://www.apache.org/licenses/LICENSE-2.0">ASL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Integration between the Wallmob Point of Sale and Magento.</summary>
+    <description>Increased multichannel competition and changes in buying behavior has created a need for rethinking the Point of Sale. WALLMOB's POS is build on a new platform that has been developed to meet business demands to optimize sales and earnings, and at the same time improve the shopping experience as well as customer loyalty. Furthermore, the WALLMOB POS integrates with multiple payment methods such as mobile payments, numerous wallets, apps and e-Commerce.</description>
+    <notes>Initial stable release. Imports the following entities from the Wallmob POS:&#xD;
+- Categories&#xD;
+- Products&#xD;
+- Stock&#xD;
+&#xD;
+In addition, placed orders will be reported to the Wallmob POS.</notes>
+    <authors><author><name>Wallmob</name><user>TeamWallmob</user><email>integrations@wallmob.com</email></author></authors>
+    <date>2014-05-23</date>
+    <time>11:03:42</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Wallmob_Wallmob.xml" hash="3811e24a9d103ac8b0eed96bde6310fe"/></dir></target><target name="magecommunity"><dir name="Wallmob"><dir name="Wallmob"><dir name="Block"><dir name="Adminhtml"><file name="Datetimelabel.php" hash="c5e99d5f6571771195e0ad13d519bd98"/><file name="Resetbutton.php" hash="f8ab93eeb8a0dd864a78f7aa48519b26"/><file name="Scheduledlabel.php" hash="aa9f70431aaa41c5ba060436850d59a7"/><file name="Statuslabel.php" hash="9ee45dcd770fe5ea965300a1147a226a"/></dir></dir><dir name="Helper"><file name="Data.php" hash="6ee25acc097196cfcc0914042430daaf"/></dir><dir name="Model"><file name="Api.php" hash="70b8fe9964ab5dfd38bc36591944d781"/><file name="Import.php" hash="5207a486d5c51d82c3ed9d3452ecc005"/><file name="Observer.php" hash="a06f16deb9c0665f9f196a3fd285ef9f"/><dir name="Processor"><file name="Abstract.php" hash="231eb22734fb810833fb603c0c233589"/><file name="Category.php" hash="783982993f14da3085a13f023676e0c5"/><file name="Interface.php" hash="4262a60a55c2125485291d8b963c3002"/><file name="Product.php" hash="9890d9382b898a61a87a656bf9fd8429"/><file name="Stock.php" hash="d6349e81d7913aad1ae8929dab036a45"/><file name="Vat.php" hash="bf860ab6e5ad9a142cfb20352d442beb"/></dir><dir name="System"><dir name="Config"><dir name="Source"><dir name="Wallmob"><file name="Store.php" hash="67cb2c223cb591c4c835520fa7116fb7"/></dir></dir></dir></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="WallmobController.php" hash="5689ce92ace815946caf984cfbc11744"/></dir></dir><dir name="data"><dir name="wallmob_setup"><file name="data-install-0.1.0.php" hash="88cb129cd970802ff24fdb56bc12938b"/><file name="data-upgrade-0.1.0-0.1.1.php" hash="e87f031a6ea5fb9fcf60abe4eda9f639"/><file name="data-upgrade-0.1.1-0.1.2.php" hash="113b227925f9e990d6df6984be1e844b"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="101e69312f130aef2a9fb72b9d0e6e13"/><file name="config.xml" hash="f291eab2f9545fc295755e3d5a72d430"/><file name="system.xml" hash="2fd28d0243a8ac1d662d4f9fa8f66f16"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php><package><name>Mage_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.9.0.1</max></package></required></dependencies>
+</package>
