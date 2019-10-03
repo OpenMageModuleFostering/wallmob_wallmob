@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Wallmob_Wallmob",
+    "name": "OpenMageModuleFostering\/Wallmob_Wallmob",
     "type": "magento-module",
     "license": "ASL",
     "homepage": "",
     "description": "Integration between the Wallmob Point of Sale and Magento.",
     "authors": [
-    {
-        "name": "Wallmob",
-        "email": "integrations@wallmob.com"
-    }
-],
+        {
+            "name": "Wallmob",
+            "email": "integrations@wallmob.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
